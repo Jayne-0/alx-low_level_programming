@@ -1,4 +1,4 @@
-#iclude "main.h"
+#include "main.h"
 /**
 * print_alphabet_x10 - print alphabet
 *
@@ -14,9 +14,9 @@ while (count < 10)
 {
 for (alphabet = 'a' ; alphabet <= 'z'; alphabet++)
 {
-_putchar(alphabet);
+"_putchar"(alphabet);
 }
 count++;
-_putchar('\n');
+"_putchar" ('\n');
 }
 }
