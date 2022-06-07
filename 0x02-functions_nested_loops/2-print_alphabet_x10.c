@@ -2,21 +2,17 @@
 /**
 * print_alphabet_x10 - print alphabet
 *
-* Return: Always 0.
+* Return: Always 0 (Success)
 */
 void print_alphabet_x10(void)
 {
-int alphabet;
-int count;
-
-count = 0;
-while (count < 10)
+  int a, b;
+  for (a = 0; a <= 9; a++)
 {
-for (alphabet = 'a' ; alphabet <= 'z'; alphabet++)
+  for (b = 97; b <= 122; b++)
 {
-"_putchar"(alphabet);
+_putchar(b);
 }
-count++;
-"_putchar" ('\n');
+_putchar('\n');
 }
 }
