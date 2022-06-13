@@ -1,9 +1,9 @@
-/*
+/**
 * File : 1-swap.c
 * Auth : Jayne-0 .
 */
 #include "main.h"
-/*
+/**
 * swap_int() - swap the values of two integers .
 */
 void swap_int(int *a, int *b)
