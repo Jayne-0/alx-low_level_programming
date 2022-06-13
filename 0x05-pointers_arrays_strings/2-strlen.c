@@ -5,7 +5,7 @@
 
 #include "main.h"
 /**
-*_strlen() - return length of a string .
+* _strlen() - return length of a string .
 * Return: no return .
 */
 
