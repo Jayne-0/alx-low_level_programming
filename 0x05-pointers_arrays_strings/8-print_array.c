@@ -8,7 +8,7 @@
 * @n: an input integer
 * Return: void
 */
-void print_array(int *a int n)
+void print_array(int *a, int n)
 {
 int i = 0;
 for (; i < n; i++)
