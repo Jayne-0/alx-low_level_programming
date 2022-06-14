@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
 * _puts() - prit a string
 * @str: a pointer of type char
