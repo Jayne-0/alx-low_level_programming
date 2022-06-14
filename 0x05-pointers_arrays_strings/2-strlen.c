@@ -1,9 +1,5 @@
-/**
-*File : 2-strlen.c
-*Auth : Jayne-0 .
-*/
-
 #include "main.h"
+
 /**
 * _strlen() - return length of a string .
 * Return: no return .
