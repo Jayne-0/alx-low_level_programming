@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
-* _puts() - prit a string
+* _puts - prints a string
 * @str: a pointer of type char
+*
 * Return: void
 */
 void _puts(char *str)
 {
-while (*str != '\0')
+  for (; *str != '\0'; str++)
 {
 _putchar(*str);
-str++;
 }
-_putchar('\n')
+_putchar('\n');
 }
