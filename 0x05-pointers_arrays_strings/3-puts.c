@@ -2,13 +2,13 @@
 
 /**
 * _puts - prints a string
-* @str: a pointer of type char
+* @str: the string to print
 *
 * Return: void
 */
 void _puts(char *str)
 {
-  for (; *str != '\0'; str++)
+for (; *str != '\0'; str++)
 {
 _putchar(*str);
 }
