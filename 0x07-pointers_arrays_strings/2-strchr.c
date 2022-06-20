@@ -8,7 +8,6 @@
 * @c: an input character to locate into string s
 * Return: returns pointer to c position
 */
-
 char *_strchr(char *s, char c)
 {
 while (*s)
@@ -19,5 +18,5 @@ s++;
 }
 if (c == *s)
 return (s);
-return (NULL); 
+return (NULL);
 }
