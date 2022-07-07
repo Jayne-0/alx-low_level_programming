@@ -1,38 +1,21 @@
 #include <stdio.h>
-
 #include <stdlib.h>
 
-
-
 /**
-
- * main - check the code for Holberton School students.
-
- * @argc: argument count.
-
- * @argv: argument vector.
-
- *
-
- * Return: Always 0.
-
- */
+* main - check the code for Holberton School students.
+* @argc: argument count.
+* @argv: argument vector.
+*
+* Return: Always 0.
+*/
 
 int main(int argc, char *argv[])
-  
 {
-  
-  char *opc = (char *) main;
-  
-  int i, nbytes;
-  
-
-  
-  if (argc != 2)
-    
-    {
-      
-      printf("Error\n");
+char *opc = (char *) main;
+int i, nbytes;
+if (argc != 2)
+{
+printf("Error\n");
 exit(1);
 }
 nbytes = atoi(argv[1]);
